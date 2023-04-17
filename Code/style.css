@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to right, aqua,orange ,pink, black);
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+}
+
+#menu{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+#menu ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+    padding: 4px;
+}
+
+h1,h2,h3{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(to right,red , black);
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/*Login*/
+
+p{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#login{
+    width: 100px;
+    height: 70px;
+    background-color: chartreuse;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 47%;
+}
